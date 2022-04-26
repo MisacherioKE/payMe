@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#main img{
+    height: 30px;
+}
+#container{
+    background-color: whitesmoke;
+    width: fit-content;
+    height: 70vh;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    box-shadow: 5px 5px 10px black;
+}
+p{
+    font-style: normal;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+.list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.icons{
+    text-decoration: none;
+    display: inline;
+    
+}
